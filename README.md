@@ -3,7 +3,7 @@ DropEditText
 
 like a spinner but can edit 
 
-Ğ§¹ûÑİÊ¾£º
+æ•ˆæœæ¼”ç¤ºï¼š
 
 ![image](https://github.com/qibin0506/DropEditText/blob/master/image/1.png)
 
@@ -12,17 +12,17 @@ like a spinner but can edit
 ![image](https://github.com/qibin0506/DropEditText/blob/master/image/3.png)
 
 
-Ê¹ÓÃ·½·¨:
-ÔÚ²¼¾ÖÎÄ¼şÅäÖÃ£º
+ä½¿ç”¨æ–¹æ³•:
+åœ¨å¸ƒå±€æ–‡ä»¶é…ç½®ï¼š
 
-<org.loader.view.DropEditText
+\<org.loader.view.DropEditText
 	android:id="@+id/drop_edit"
 	android:layout_width="200dip"
 	android:layout_height="wrap_content"
 	drop:drawableRight="@drawable/drop"
 	drop:dropMode="flower_parent" />
 		
-<org.loader.view.DropEditText
+\<org.loader.view.DropEditText
 	android:id="@+id/drop_edit2"
 	android:layout_width="200dip"
 	android:layout_height="wrap_content"
@@ -30,20 +30,19 @@ like a spinner but can edit
 	drop:dropMode="wrap_content"
 	drop:hint="DropEditText" />
 
-ÔÚActivityÖĞ£º
-DropEditText drop1 = (DropEditText) findViewById(R.id.drop_edit);
+åœ¨Activityä¸­ï¼š
+		DropEditText drop1 = (DropEditText) findViewById(R.id.drop_edit);
 		DropEditText drop2 = (DropEditText) findViewById(R.id.drop_edit2);
-		
 		drop1.setAdapter(new BaseAdapter() {
 			private List<String> mList = new ArrayList<String>() {
 				{
-					add("³£ÓÃÑ¡Ïî one");
-					add("³£ÓÃÑ¡Ïî two");
-					add("³£ÓÃÑ¡Ïî three");
-					add("³£ÓÃÑ¡Ïî four");
-					add("³£ÓÃÑ¡Ïî five");
-					add("³£ÓÃÑ¡Ïî six");
-					add("³£ÓÃÑ¡Ïî 7ÔõÃ´Æ´À´×Å£¿");
+					add("å¸¸ç”¨é€‰é¡¹ one");
+					add("å¸¸ç”¨é€‰é¡¹ two");
+					add("å¸¸ç”¨é€‰é¡¹ three");
+					add("å¸¸ç”¨é€‰é¡¹ four");
+					add("å¸¸ç”¨é€‰é¡¹ five");
+					add("å¸¸ç”¨é€‰é¡¹ six");
+					add("å¸¸ç”¨é€‰é¡¹ 7æ€ä¹ˆæ‹¼æ¥ç€ï¼Ÿ");
 				}
 			};
 
@@ -73,13 +72,13 @@ DropEditText drop1 = (DropEditText) findViewById(R.id.drop_edit);
 		drop2.setAdapter(new BaseAdapter() {
 			private List<String> mList = new ArrayList<String>() {
 				{
-					add("³£ÓÃÑ¡Ïî one");
-					add("³£ÓÃÑ¡Ïî two");
-					add("³£ÓÃÑ¡Ïî three");
-					add("³£ÓÃÑ¡Ïî four");
-					add("³£ÓÃÑ¡Ïî five");
-					add("³£ÓÃÑ¡Ïî six");
-					add("³£ÓÃÑ¡Ïî 7ÔõÃ´Æ´À´×Å£¿");
+					add("å¸¸ç”¨é€‰é¡¹ one");
+					add("å¸¸ç”¨é€‰é¡¹ two");
+					add("å¸¸ç”¨é€‰é¡¹ three");
+					add("å¸¸ç”¨é€‰é¡¹ four");
+					add("å¸¸ç”¨é€‰é¡¹ five");
+					add("å¸¸ç”¨é€‰é¡¹ six");
+					add("å¸¸ç”¨é€‰é¡¹ 7æ€ä¹ˆæ‹¼æ¥ç€ï¼Ÿ");
 				}
 			};
 
