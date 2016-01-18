@@ -22,7 +22,7 @@
         android:layout_width="200dip"
         android:layout_height="wrap_content"
         drop:drawableRight="@drawable/drop"
-        drop:dropMode="flower_parent" />
+        drop:dropMode="flow_parent" />
     
      <TextView
          android:layout_marginTop="50dip"
