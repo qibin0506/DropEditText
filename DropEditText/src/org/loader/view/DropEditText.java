@@ -30,7 +30,7 @@ public class DropEditText extends FrameLayout implements View.OnClickListener, O
 	private WrapListView mPopView; // popupwindow的布局
 	
 	private int mDrawableLeft;
-	private int mDropMode; // flower_parent or wrap_content
+	private int mDropMode; // flow_parent or wrap_content
 	private String mHit;
 	
 	public DropEditText(Context context, AttributeSet attrs) {
